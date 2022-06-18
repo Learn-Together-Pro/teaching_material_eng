@@ -11,8 +11,6 @@
 * link:./little-helpers.html[Little Helpers]
 * link:./error-handling.html[Error Handling]
 * link:./mutability.html[Mutability]
-* link:./ownership.html[Ownership]
-* link:./borrowing.html[Borrowing]
 * link:./ownership-borrowing-in-brief.html[Ownership & Borrowing in brief]
 * link:./strings.html[Strings]
 * link:./drop-panic-abort.html[Drop, Panic, Abort]
@@ -24,11 +22,9 @@
 * link:./generics-basics.html[Basic Generics]
 
 .Advanced
-* link:./cargo.html[Cargo]
 * link:./traits.html[Traits]
 * link:./dynamic-dispatch.html[Dynamic Dispatch]
 * link:./advanced-generics-bounds.html[Advanced Generics]
-* link:./conversion-patterns.html[Conversions]
 * link:./closures.html[Closures]
 * link:./imports-modules-and-visibility.html[Imports, Modules, and Visibility]
 * link:./crates.html[Crates]
@@ -42,32 +38,32 @@
 * link:./send-and-sync.html[Send and Sync]
 
 .Async
+* link:./async-await-intro.html[Intro to Async/Await]
 * link:./async-building-blocks.html[Async building blocks]
+* link:./async-tokio-intro.html[Intro to Tokio]
+* link:./async-implementation.html[Async Implementation Details]
 * link:./async-component-interaction.html[Async component interaction]
-* link:./async-growth-handling.html[ Async: Avoiding disaster and unbounded growth]
+* link:./async-growth-handling.html[Async: Avoiding disaster and unbounded growth]
 
-.Other
+.Special topics
+* link:./cargo.html[Cargo]
 * link:./async-await.html[Async Await]
-* link:./community-map.html[Community Map]
 * link:./deref-coersions.html[Deref Coersions]
 * link:./dynamic-and-static-libs.html[Dynamic and Static Libs]
-* link:./effective-rust.html[Effective Rust]
-* link:./embedded.html[Embedded]
 * link:./ffi.html[FFI]
 * link:./futures.html[Futures]
 * link:./macros.html[Macros]
 * link:./match.html[Match]
-* link:./memory-considerations.html[Memory Considerations]
 * link:./proptest.html[Proptest]
-* link:./redis.html[Redis]
-* link:./redis-protobuf.html[Redis Protobuf]
+* link:./redis.html[Redis Exercise - Helper Slides]
+* link:./redis-protobuf.html[Redis Protobuf Exercise - Helper Slides]
 * link:./serde.html[Serde]
 * link:./smart-pointers.html[Smart Pointers]
 * link:./standard-types.html[Standard Types]
-* link:./syntax.html[Syntax]
 * link:./unsafe.html[Unsafe]
-* link:./usage-examples.html[Usage Examples]
 * link:./working-with-nightly.html[Working With Nightly]
+* link:./debugging-rust.html[Debugging Rust]
+* link:./design-patterns.html[Basic Design Patterns]
 
 == Assignments
 
@@ -78,7 +74,7 @@
 * link:./assignments/redisish.html[Redisish protocol parser]
 * link:./assignments/tcp-echo-server.html[TCP server]
 * link:./assignments/tcp-client.html[TCP client]
-* link:./assignments/bullsncows.html[Bulls and Cows game]
+* link:./assignments/green_yellow.html[Green and Yellow game]
 
 * link:./assignments/connected-mailbox.html[Connected mailbox]
 * link:./assignments/multithreaded-mailbox.html[Multithreaded mailbox]
